@@ -1,0 +1,124 @@
+body{
+    background-color: #1e2945;
+    font-family: sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1, .countdown-container, .big-text, span{
+    display: flex;
+    justify-content: center;
+}
+h1, .big-text{
+    color: whitesmoke;
+}
+span{
+    color: #ec94fa;
+    font-weight: bold;
+}
+h1{
+    font-size: 3rem;
+    margin: 3rem auto;
+    width: 30%;
+    padding: 1.5rem;
+    font-weight: bold;
+    border: 1px solid #c09ff8;
+    /* background-color: #bd7ee7; */
+}
+.countdown-container{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+}
+.big-text{
+    font-size: 2.3rem;
+    padding: 3.5rem;
+    margin-top: 5rem;
+    border-radius: 10px;
+    background-color: #c09ff8;
+    box-shadow:
+    1.1px 2px 2.1px -15px rgba(0, 0, 0, 0.137),
+    3.6px 6.7px 7.1px -15px rgba(0, 0, 0, 0.203),
+    16px 30px 32px -15px rgba(0, 0, 0, 0.34)
+  ;
+}
+span{
+    font-size: 2rem;
+}
+
+/* .tarjetas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+}
+.tarjeta{
+    width: 50%;
+    height: 600px;
+    margin: 100px 10px ;
+    border: 1px solid #c09ff8;
+}
+ .horizontal1{
+    background-image: url('img/horizontal1.jpg');
+    background-size: cover;
+}  */
+
+.cards-vertical{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40%;
+    gap: 3rem;
+}
+.card,.card-hori{
+    width: 40%;
+    height: 500px;
+    font-size: 24px;
+    margin: 100px 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+
+}
+
+.card1{
+    background-image: url('img/vertical1\ \(2\).jpg');
+}
+.card2{
+    background-image: url('img/horizontal2.jpg');
+    background-position: center;
+
+}
+ .card3{
+    background-image: url('img/vertical4.jpg');
+    height: 800px;
+
+} 
+.card4{
+    height: 800px;
+    background-image: url('img/vertical3.webp');
+}
+
+.card5 , .card6{
+    margin: 0 auto;
+    margin-top: 10%;
+    background-size: cover;
+    height: 550px;
+    width: 70%;
+}
+.card5{
+    background-image: url('img/vertical5.jpeg');
+
+}
+.card6{
+    background-image: url('img/vertical2.jpg')
+}
+
+.texto-final{
+    display: flex;
+    justify-content: center;
+    margin: 20% 10%;
+    font-size: 2rem;
+    color: aliceblue;
+}
